@@ -1,4 +1,4 @@
-# Sample from blog post: How to create a web page that looks like a desktop app
+# Sample code from blog post: How to create a web page that looks like a desktop app
 
 HTML and CSS example of a web page that looks like a desktop app.
 
