@@ -99,3 +99,120 @@ div#statusBar i {
     line-height: 20px;
     font-size: large;
 }
+
+
+/*survey html page*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.q1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.q2 {
+    display: none;
+    background-color: rgb(0, 255, 115);
+}
+
+.q3 {
+    display: none;
+    background-color: rgb(255, 0, 242);
+}
+
+.end {
+    display: none;
+    background-color: orange;
+}
+
+header {
+    color: grey;
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.survey {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(0, 217, 255);
+    color: whitesmoke;
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.survey h3 {
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.survey li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.survey li:hover {
+    background: rgb(132, 237, 100);
+    width: 150px;
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.end {
+    background: royalblue;
+    color: white;
+    width: 80%;
+    margin: 35% auto;
+    padding: 20px 0;
+    border-radius: 3px;
+    box-shadow: 1px 1 px 7px rgba(0, 0, 0, 0.4);
+}
+
+.end h1 {
+    margin: 5px;
+}
+
+.end a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background: rgb(61, 61, 61);
+    outline: none;
+}
+
+.end a:hover {
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.404);
+    transition: 0.3;
+}
